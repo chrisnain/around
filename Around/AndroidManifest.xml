@@ -22,6 +22,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="de.chrisnain.around.DisplayMessageActivity"
+            android:label="@string/title_activity_display_message"
+            android:parentActivityName="de.chrisnain.around.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.chrisnain.around.MainActivity" />
+        </activity>
     </application>
 
 </manifest>
